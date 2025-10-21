@@ -8,4 +8,7 @@ while True:
         print(f"Поздравляю, это число было {number}")
         break
     else:
-        print("Неудача( Попробуй ещё раз!")
+        if guess > number:
+            print("Меньше")
+        else:
+            print("Больше")
